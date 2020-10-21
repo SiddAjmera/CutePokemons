@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&family=Sigmar+One&text=PSYaehkmnoprst!0123456789&display=swap");
+
+.pokemon-header {
+  transform: skewY(3.5deg);
+  height: 100px;
+}
+@media (max-width: 767px) {
+  .pokemon-header {
+    height: 117px;
+  }
+}
+@media (min-width: 768px) {
+  .pokemon-header {
+    height: 113px;
+  }
+}
+@media (min-width: 992px) {
+  .pokemon-header {
+    height: 105px;
+  }
+}
+@media (min-width: 1200px) {
+  .pokemon-header {
+    height: 83px;
+  }
+}
+
+.pokemon {
+  font-family: "Sigmar One", cursive;
+  line-height: 246px;
+  letter-spacing: 0.46875px;
+  color: #f5a623;
+  transform: skewY(-7deg);
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .pokemon {
+    font-size: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .pokemon {
+    font-size: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .pokemon {
+    font-size: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .pokemon {
+    font-size: 150px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  position: relative;
+  height: 1500px;
+  overflow: hidden;
+  transform: skewY(3.5deg);
+}
+@media (max-width: 767px) {
+  .main {
+    height: 4000px;
+  }
+}
+@media (min-width: 768px) {
+  .main {
+    height: 2000px;
+  }
+}
+@media (min-width: 992px) {
+  .main {
+    height: 2200px;
+  }
+}
+@media (min-width: 1200px) {
+  .main {
+    height: 1300px;
+  }
+}
+
+.main .main-banner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f5a623;
+  transform: skewY(-7deg);
+  transform-origin: 100% 100%;
+}
+
+.non-skewed {
+  transform: skewY(3.5deg);
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    margin: 0;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1056px;
+    margin: auto;
+  }
+}
+
+.starter-container {
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.starter-heading {
+  width: 550px;
+  margin: 0 auto;
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .starter-heading {
+    width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .starter-heading {
+    width: 550px;
+  }
+}
+
+.starters {
+  margin-bottom: 0;
+  font-family: Sigmar One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+}
+
+.starter {
+  background-color: #ffffff;
+  border-radius: 24px 24px 100px 100px;
+  width: 550px;
+  display: inline-block;
+  text-align: left;
+  margin-top: -23px;
+}
+@media (max-width: 767px) {
+  .starter {
+    width: 320px;
+  }
+}
+@media (min-width: 1200px) {
+  .starter {
+    width: 550px;
+  }
+}
+
+.starter-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.starter-title {
+  padding: 8px 0 0 20px;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.starter-description {
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0px 35px 10px 35px;
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+  flex: 1 1 0px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media (max-width: 767px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 992px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1200px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  max-width: 171px;
+  min-width: 171px;
+  margin: 0 15px;
+}
+@media (max-width: 767px) {
+  .card {
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin: 52px 0 0;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    flex: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .card {
+    flex: 33.33%;
+  }
+}
+@media (min-width: 1200px) {
+  .card {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.card:nth-child(even) {
+  margin-top: 52px;
+}
+
+.card h4 {
+  margin: 0;
+  text-align: center;
+  font-family: "Sigmar One", cursive;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.card .card-image {
+  border: 10px dashed #000;
+  border-radius: 50%;
+  width: 171px;
+  height: 171px;
+  display: inline-block;
+}
+
+.card .card-image .img-container {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 171px;
+  height: 171px;
+  display: inline-block;
+  position: relative;
+}
+
+.card .card-image .img-container .img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+.pokemon-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05px;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 13px;
+}
+
+.pokemon-description {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.0375px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.yeah {
+  font-family: "Sigmar One", cursive;
+  font-size: 150px;
+  line-height: normal;
+  letter-spacing: 0.46875px;
+  color: #ffffff;
+  transform: rotate(7deg);
+  right: 00;
+  margin: 0;
+  position: absolute;
+  bottom: -40px;
+}
+@media (max-width: 767px) {
+  .yeah {
+    font-size: 50px;
+    bottom: -12px;
+  }
+}
+@media (min-width: 768px) {
+  .yeah {
+    font-size: 100px;
+    bottom: -24px;
+  }
+}
+@media (min-width: 992px) {
+  .yeah {
+    font-size: 100px;
+    bottom: -25px;
+  }
+}
+@media (min-width: 1200px) {
+  .yeah {
+    font-size: 150px;
+    bottom: -40px;
+  }
+}
